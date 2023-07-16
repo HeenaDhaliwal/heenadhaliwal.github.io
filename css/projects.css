@@ -1,0 +1,63 @@
+.body-css{
+    background-color: rgb(24, 24, 48);
+    color:white;
+    
+}
+.navbar{
+    margin-top: 25px;
+    max-width: 100%;
+    background-color: rgb(24, 24, 48);
+    font-weight:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.me-auto {
+    margin-right: auto!important;
+    margin-left: auto;
+}
+
+/* logo */
+.navbar img:hover{
+    transform:scale(1.2);
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+.nav .nav-item{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    margin-right: 15px;
+    
+   
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color:white;
+}
+
+.nav .nav-item .nav-link:hover{
+   color:skyblue;
+   /* border-bottom: 1px solid white; */
+   /* border-bottom: 1px; */
+}
+
+
+/* button */
+.btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(214, 214, 214, 0.25)!important;
+}
+.d-flex .btn-contact{
+    border-radius: 5px;
+    width: 120px;
+    background:linear-gradient(35deg,skyblue,rgb(26, 26, 109));
+    color: white;
+    border: none;
+}
+/* .d-flex .btn2{
+    margin-left: 15px;
+    margin-right: 15px;
+} */
+.d-flex .btn-contact:hover{
+    color:white;
+    box-shadow: 2px 2px 14px 2px lightblue;
+}
+

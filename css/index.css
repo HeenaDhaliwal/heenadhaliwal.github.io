@@ -1,0 +1,189 @@
+.body-css{
+    background-color: rgb(24, 24, 48);
+    color:white;
+    
+}
+.navbar{
+    margin-top: 25px;
+    max-width: 100%;
+    background-color: rgb(24, 24, 48);
+    font-weight:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.me-auto {
+    margin-right: auto!important;
+    margin-left: auto;
+}
+
+/* logo */
+.navbar img:hover{
+    transform:scale(1.2);
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+.nav .nav-item{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    margin-right: 15px;
+    
+   
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color:white;
+}
+
+.nav .nav-item .nav-link:hover{
+   color:skyblue;
+   /* border-bottom: 1px solid white; */
+   /* border-bottom: 1px; */
+}
+
+
+/* button */
+.btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(214, 214, 214, 0.25)!important;
+}
+.d-flex #contact{
+    border-radius: 7px;
+    width: 120px;
+    background:linear-gradient(35deg,skyblue,rgb(26, 26, 109));
+    color: white;
+    border: none;
+}
+/* .d-flex .btn2{
+    margin-left: 15px;
+    margin-right: 15px;
+} */
+.d-flex #contact:hover{
+    color:white;
+    box-shadow: 2px 2px 14px 2px lightblue;
+}
+
+
+/* container*/
+.container-fluid .btn-project{
+        border-radius: 5px;
+        padding: 8px 30px;
+        text-decoration: none;
+        background:linear-gradient(35deg,skyblue,rgb(26, 26, 109));
+        color: white;
+        border: none;
+}
+
+.container-fluid .btn-project:hover{
+    box-shadow: 2px 2px 14px 2px lightblue;
+}
+
+/*main  */
+.container .btn1{
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    background:linear-gradient(35deg,skyblue,rgb(26, 26, 109));
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+.container .btn1:hover{
+    /* box-shadow: 2px 2px 14px 2px lightblue; */
+    color:white;
+    box-shadow: 2px 2px 10px 2px lightblue;
+}
+.container .btn2{
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    background: transparent;
+    color: white;
+    border: 1px solid skyblue;
+    margin-right: 20px;
+}
+.container .btn2:hover{
+    /* box-shadow: 2px 2px 14px 2px lightblue; */
+    background:linear-gradient(35deg,skyblue,rgb(26, 26, 109));
+    /* color: black; */
+    border: none;
+}
+
+.container .education .box{
+     border-bottom: 3px solid skyblue;
+    border-right: 3px solid skyblue;
+    border-top: 3px solid rgb(26, 26, 109);
+    border-left: 3px solid rgb(26, 26, 109);
+    
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px lightblue;
+    
+}
+
+/* project */
+.project .view{
+    border-radius: 5px;
+    padding: 8px 30px;
+    text-decoration: none;
+    background:linear-gradient(35deg,skyblue,rgb(26, 26, 109));
+    color: white;
+    border: none;
+}
+.project .view:hover{
+    color:white;
+    box-shadow: 2px 2px 10px 2px lightblue;
+}
+
+.project .button{
+    border-radius: 5px;
+    /* height: 50px; */
+    padding: 10px 10px;
+    width: 110px;
+    background:linear-gradient(35deg,skyblue,rgb(26, 26, 109));
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+
+.project .button:hover{
+    color:white;
+    box-shadow: 2px 2px 10px 2px lightblue;
+}
+
+/*  */
+.services .col{
+    border-bottom: 3px solid skyblue;
+    border-right: 3px solid skyblue;
+    border-top: 3px solid rgb(26, 26, 109);
+    border-left: 3px solid rgb(26, 26, 109);
+    
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 2px lightblue;
+
+}
+
+/*  */
+.certificate a{
+    color: skyblue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* footer */
+main{
+    background:linear-gradient(10deg,skyblue,rgb(26, 26, 109));
+    border-radius: 100px 100px 0px 0px;
+}
+
+/* button */
+#go-top
+{
+    padding: 6px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px; 
+    cursor: pointer;
+}
+#go-top img{
+    width: 45px;
+    height: 45px;
+    /* filter: invert(100%); */
+}
